@@ -18,6 +18,8 @@ public class Main extends Application {
 	public void start(Stage stage) {
 		StackPane root = new StackPane();
 		Scene scene = new Scene(root);
+		stage.setTitle("Ninja Game");
+		stage.setResizable(false);
 		stage.setScene(scene);
 		
 		GameLogic logic = new GameLogic();
