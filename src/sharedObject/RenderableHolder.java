@@ -1,14 +1,13 @@
 package sharedObject;
 
 import java.util.ArrayList;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 import javafx.scene.image.Image;
 import javafx.scene.media.AudioClip;
-import logic.Field;
-import logic.Player;
 
 public class RenderableHolder {
 	
@@ -77,14 +76,14 @@ public class RenderableHolder {
 	}
 	
 	public static void loadResource() {
-		topLeftTile = new Image(ClassLoader.getSystemResource("Tile_TopLeft.png").toString());
+		//topLeftTile = new Image(ClassLoader.getSystemResource("Tile_TopLeft.png").toString());
 		topTile = new Image(ClassLoader.getSystemResource("Tile_Top.png").toString());
-		topRightTile = new Image(ClassLoader.getSystemResource("Tile_TopRight.png").toString());
+		/*topRightTile = new Image(ClassLoader.getSystemResource("Tile_TopRight.png").toString());
 		leftTile = new Image(ClassLoader.getSystemResource("Tile_Left.png").toString());
 		rightTile = new Image(ClassLoader.getSystemResource("Tile_Right.png").toString());
 		bottomLeftTile = new Image(ClassLoader.getSystemResource("Tile_BottomLeft.png").toString());
 		bottomTile = new Image(ClassLoader.getSystemResource("Tile_Bottom.png").toString());
-		bottomRightTile = new Image(ClassLoader.getSystemResource("Tile_BottomRight.png").toString());
+		bottomRightTile = new Image(ClassLoader.getSystemResource("Tile_BottomRight.png").toString());*/
 	
 		playerRun000 = new Image(ClassLoader.getSystemResource("Run__000.png").toString());
 		playerRun001 = new Image(ClassLoader.getSystemResource("Run__001.png").toString());

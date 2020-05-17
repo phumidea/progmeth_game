@@ -1,14 +1,13 @@
 package main;
 
 import drawing.GameScreen;
-import input.InputUtility;
+
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import logic.GameLogic;
-import logic.Score;
 import sharedObject.RenderableHolder;
 
 public class Main extends Application {
@@ -37,7 +36,7 @@ public class Main extends Application {
 				gameScreen.paintComponent();
 				logic.logicUpdate();
 				RenderableHolder.getInstance().update();
-				InputUtility.updateInputState();
+				//InputUtility.updateInputState();
 				
 			}
 			

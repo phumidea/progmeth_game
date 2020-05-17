@@ -1,7 +1,8 @@
 package logic;
 
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
+
+/*import javafx.scene.image.Image;*/
 import javafx.scene.paint.Color;
 import sharedObject.IRenderable;
 import sharedObject.RenderableHolder;
@@ -60,14 +61,14 @@ public class Field implements IRenderable {
 					gc.setFill(Color.BLACK);
 					gc.fillRect(x*80, y*80, 80, 80);
 				}
-				else if (getTileIndex(x, y) == 1) gc.drawImage(RenderableHolder.topLeftTile, x*80, y*80, 80, 80);
+				//else if (getTileIndex(x, y) == 1) gc.drawImage(RenderableHolder.topLeftTile, x*80, y*80, 80, 80);
 				else if (getTileIndex(x, y) == 2) gc.drawImage(RenderableHolder.topTile, x*80, y*80, 80, 80);
-				else if (getTileIndex(x, y) == 3) gc.drawImage(RenderableHolder.topRightTile, x*80, y*80, 80, 80);
+				/*else if (getTileIndex(x, y) == 3) gc.drawImage(RenderableHolder.topRightTile, x*80, y*80, 80, 80);
 				else if (getTileIndex(x, y) == 4) gc.drawImage(RenderableHolder.leftTile, x*80, y*80, 80, 80);
 				else if (getTileIndex(x, y) == 5) gc.drawImage(RenderableHolder.rightTile, x*80, y*80, 80, 80);
 				else if (getTileIndex(x, y) == 6) gc.drawImage(RenderableHolder.bottomLeftTile, x*80, y*80, 80, 80);
 				else if (getTileIndex(x, y) == 7) gc.drawImage(RenderableHolder.bottomTile, x*80, y*80, 80, 80);
-				else if (getTileIndex(x, y) == 8) gc.drawImage(RenderableHolder.bottomRightTile, x*80, y*80, 80, 80);
+				else if (getTileIndex(x, y) == 8) gc.drawImage(RenderableHolder.bottomRightTile, x*80, y*80, 80, 80);*/
 				
 			}
 		}

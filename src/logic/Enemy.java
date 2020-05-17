@@ -1,9 +1,10 @@
 package logic;
 
 import input.InputUtility;
+
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.KeyCode;
-import javafx.scene.paint.Color;
+/*import javafx.scene.paint.Color;*/
 import sharedObject.RenderableHolder;
 
 public class Enemy extends CollidableEntity{

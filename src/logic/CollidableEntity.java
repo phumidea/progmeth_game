@@ -1,7 +1,8 @@
 package logic;
 
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.shape.Rectangle;
+/*import javafx.scene.canvas.GraphicsContext;
+
+import javafx.scene.shape.Rectangle;*/
 
 public abstract class CollidableEntity extends Entity{
 	
