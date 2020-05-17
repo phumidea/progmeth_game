@@ -52,8 +52,7 @@ public class GameScreen extends Canvas {
 		score.draw(gc);
 		score.update();
 		
-	
-		
 	}
+	
 	
 }

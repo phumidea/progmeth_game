@@ -69,8 +69,25 @@ public class Enemy extends CollidableEntity{
 		
 		
 	}
+
+	public double getSpeedUp() {
+		return speedUp;
+	}
+
+	public void setSpeedUp(double speedUp) {
+		this.speedUp = speedUp;
+	}
+
+	public double getAnimationCount() {
+		return animationCount;
+	}
+
+	public void setAnimationCount(double animationCount) {
+		this.animationCount = animationCount;
+	}
 	
 
+	
 	
 
 }

@@ -1,16 +1,5 @@
 package logic;
 
-<<<<<<< HEAD
-/*import javafx.scene.canvas.GraphicsContext;
-
-import javafx.scene.shape.Rectangle;*/
-||||||| merged common ancestors
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.shape.Rectangle;
-=======
-
->>>>>>> 9c6ad035178ec0c9cb260297276fec8cb5f5a563
-
 public abstract class CollidableEntity extends Entity{
 	
 	protected double width;
@@ -67,6 +56,24 @@ public abstract class CollidableEntity extends Entity{
 		if(a1 <= a2 && a2 <= a3) return true;
 		else return false;
 	}
+
+	public double getWidth() {
+		return width;
+	}
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	public double getHeight() {
+		return height;
+	}
+
+	public void setHeight(double height) {
+		this.height = height;
+	}
+	
+	
 	
 	
 	

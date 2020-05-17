@@ -7,8 +7,6 @@ import sharedObject.RenderableHolder;
 
 public class Kunai extends CollidableEntity{
 	
-	private double width;
-	private double height;
 	private double speedUp;
 	private boolean outOfScreen;
 	
@@ -56,37 +54,6 @@ public class Kunai extends CollidableEntity{
 		if(y <= 0) y = 0.01;
 	}*/
 
-	public double getX() {
-		return x;
-	}
-
-	public void setX(double x) {
-		this.x = x;
-	}
-
-	public double getY() {
-		return y;
-	}
-
-	public void setY(double y) {
-		this.y = y;
-	}
-
-	public double getWidth() {
-		return width;
-	}
-
-	public void setWidth(double width) {
-		this.width = width;
-	}
-
-	public double getHeight() {
-		return height;
-	}
-
-	public void setHeight(double height) {
-		this.height = height;
-	}
 
 	public double getSpeedUp() {
 		return speedUp;

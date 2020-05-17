@@ -11,5 +11,5 @@ public interface IRenderable {
 	public boolean isDestroyed();
 
 	public boolean isVisible();
-
+	
 }
